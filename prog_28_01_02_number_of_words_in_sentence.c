@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int countWords(char *string)
+int count(char *string)
 {
 	int count = 0,num=0;
 	while(*string)
@@ -18,7 +18,7 @@ void main()
 {
 	int result;
 	char string[] = {"I am chandan kumar palei"};
-	result = countWords(string);
+	result = count(string);
 	printf("Number of words = %d",result+1);	
 	getch();
 }
